@@ -1,0 +1,36 @@
+name: gdg_eljadida
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  injectable:
+  get_it:
+  freezed:
+  freezed_annotation:
+  equatable:
+  dartz:
+  connectivity:
+  cached_network_image:
+
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+  # add the generator to your dev_dependencies
+  injectable_generator:
+  # flutter pub run build_runner watch --delete-conflicting-outputs
+  build_runner:
+
+flutter: 
+  uses-material-design: true
+
