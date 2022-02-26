@@ -17,6 +17,7 @@ class HomeView extends StatelessWidget {
           centerTitle: true,
         ),
         body: Container(
+          color: Colors.blue.withOpacity(0.05),
           child: Obx(() {
             final pageState = homeController.pageState.value;
             return pageState.map(
@@ -38,7 +39,7 @@ class HomeView extends StatelessWidget {
                         margin: EdgeInsets.all(16.0),
                         child: SizedBox(
                           width: double.infinity,
-                          height: 300.0,
+                          height: 200.0,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [

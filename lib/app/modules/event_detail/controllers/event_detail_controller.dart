@@ -11,6 +11,7 @@ class EventDetailController extends GetxController {
   final pageState = Rx<LoadingState>(LoadingState.loading());
 
   Event get event => eventService.events[index];
+  List<Event> get events => eventService.events;
 
   var isFavorite=false.obs;
 
